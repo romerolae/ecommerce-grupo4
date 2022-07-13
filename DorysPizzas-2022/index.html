@@ -1,97 +1,155 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<meta name="description" content="Coca colaes la bebida y bla bla bla bla">
-		<meta name="keywords" content="bebida, gaseosa, cola">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="Pizzeria Unicordoba: Las mejores pizzas de la Universidad con el mejor sabor y a un precio increible. Ven por la tuya.">
-    	<meta name="keywords" content="Pizzeria Unicordoba Pizza Hawaiana, Especial, todo Terreno">
-    	<title>Dorys Pizzas</title>
+		<meta charset="utf-8" />
+		<meta
+			name="description"
+			content="Coca colaes la bebida y bla bla bla bla"
+		/>
+		<meta name="keywords" content="bebida, gaseosa, cola" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Pizzeria Unicordoba: Las mejores pizzas de la Universidad con el mejor sabor y a un precio increible. Ven por la tuya."
+		/>
+		<meta
+			name="keywords"
+			content="Pizzeria Unicordoba Pizza Hawaiana, Especial, todo Terreno"
+		/>
+		<title>Dorys Pizzas</title>
 
-		<link rel="shortcut icon" href="img/favicon.png">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,500&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style2022.css">
-		<script src="https://kit.fontawesome.com/114c3ee85e.js" crossorigin="anonymous"></script>
+		<link rel="shortcut icon" href="img/favicon.png" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,500&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/style2022.css" />
+		<link
+			href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://kit.fontawesome.com/114c3ee85e.js"
+			crossorigin="anonymous"
+		></script>
 	</head>
 	<body>
 		<header>
 			<div class="container">
 				<a href="index.html">
-					<img src="img/logo.png" class="logo">
+					<img src="img/logo.png" class="logo" />
 				</a>
 				<h1>Pizzería Unicórdoba</h1>
-				<nav>
+				<nav class="nav__bar">
+					<a href="#cart"><i class="bx bx-cart carrito"></i></a>
 					<a href="#inicio">Inicio</a>
 					<a href="#nosotros">Nosotros</a>
 					<a href="#recomendados">Recomendados</a>
 					<a href="#contactenos">Contáctenos</a>
 					<a href="#galeria">Galería</a>
-					
 				</nav>
 				<a href="#" class="hamb"><i class="fas fa-bars"></i></a>
 			</div>
 		</header>
+		<!-- contenedor carrito -->
+		<div class="cart-conteiner">
+			<div class="carrit">
+				<h2>Carrito de Compras</h2>
+				<div class="articulos">
+					<div class="producto">
+						<div class="producto-img">
+							<img src="img/pizza1.jpg" alt="" />
+						</div>
+						<div class="producto-description">aaa</div>
+						<div class="producto-costo">412312</div>
+					</div>
+					<div class="delete"><i class="bx bx-trash-alt"></i></div>
+				</div>
+				<hr />
+				<div class="totales">
+					<p class="total">Total</p>
+					<p class="costo">30</p>
+				</div>
+			</div>
+		</div>
 		<main>
 			<div class="container-fluid">
 				<section id="inicio">
 					<!--<img src="img/banner_principal.jpg">-->
 					<div class="bloque-inicio">
 						<h2>Bienvenidos a la Pizzería Unicordoba</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-							
-							
-						</p>
-						<a href="#nosotros" class="boton boton-rojo">Ver más</a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<a href="#nosotros" class="boton boton-rojo">$ 30</a>
 					</div>
 				</section>
 			</div>
-			
+
 			<section id="nosotros" class="seccion">
 				<div class="container">
 					<h2>Nosotros</h2>
-					<p>Nam accumsan tellus tortor, at aliquet est sodales vitae. Praesent posuere nunc eget odio dapibus, sed cursus mauris tincidunt. Donec accumsan arcu et urna eleifend sodales. Sed at neque non leo tincidunt semper. In ligula enim, rutrum sit amet Lorem eu, congue dapibus nisi.</p> 
+					<p>
+						Nam accumsan tellus tortor, at aliquet est sodales vitae. Praesent
+						posuere nunc eget odio dapibus, sed cursus mauris tincidunt. Donec
+						accumsan arcu et urna eleifend sodales. Sed at neque non leo
+						tincidunt semper. In ligula enim, rutrum sit amet Lorem eu, congue
+						dapibus nisi.
+					</p>
 				</div>
 			</section>
-			<section id="recomendados"  class="seccion">
+			<section id="recomendados" class="seccion">
 				<div class="container">
 					<div class="row">
 						<div class="columna columna-33 columna-mobile-100">
 							<div class="bloque-recomendado">
 								<div class="bloque-img-recomendado rectangulo-perfecto">
-									<img src="img/recomendado1.jpg">
+									<img src="img/recomendado1.jpg" />
 								</div>
 								<div class="bloque-contenido-recomendado">
 									<h3>Pizza recomendada 1</h3>
-									<p>Nam accumsan tellus tortor, at aliquet est sodales vitae. Praesent posuere nunc eget odio dapibus, sed cursus mauris tincidunt.</p>
-									<a href="#" class="boton boton-blanco">Ver más</a>
+									<p>
+										Nam accumsan tellus tortor, at aliquet est sodales vitae.
+										Praesent posuere nunc eget odio dapibus, sed cursus mauris
+										tincidunt.
+									</p>
+									<p>Precio: $ <span>34</span></p>
+									<a href="#" class="boton boton-blanco">Agregar al carrito</a>
 								</div>
 							</div>
 						</div>
 						<div class="columna columna-33 columna-mobile-100">
 							<div class="bloque-recomendado">
 								<div class="bloque-img-recomendado rectangulo-perfecto">
-									<img src="img/recomendado2.jpg">
+									<img src="img/recomendado2.jpg" />
 								</div>
 								<div class="bloque-contenido-recomendado">
 									<h3>Pizza recomendada 2</h3>
-									<p>Nam accumsan tellus tortor, at aliquet est sodales vitae. Praesent posuere nunc eget odio dapibus, sed cursus mauris tincidunt.</p>
-									<a href="#" class="boton boton-blanco">Ver más</a>
+									<p>
+										Nam accumsan tellus tortor, at aliquet est sodales vitae.
+										Praesent posuere nunc eget odio dapibus, sed cursus mauris
+										tincidunt.
+									</p>
+									<p>Precio: $ <span>44</span></p>
+									<a href="#" class="boton boton-blanco">Agregar al carrito</a>
 								</div>
 							</div>
 						</div>
 						<div class="columna columna-33 columna-mobile-100">
 							<div class="bloque-recomendado">
 								<div class="bloque-img-recomendado rectangulo-perfecto">
-									<img src="img/recomendado3.jpg">
+									<img src="img/recomendado3.jpg" />
 								</div>
 								<div class="bloque-contenido-recomendado">
 									<h3>Pizza recomendada 3</h3>
-									<p>Nam accumsan tellus tortor, at aliquet est sodales vitae. Praesent posuere nunc eget odio dapibus, sed cursus mauris tincidunt.</p>
-									<a href="#" class="boton boton-blanco">Ver más</a>
+									<p>
+										Nam accumsan tellus tortor, at aliquet est sodales vitae.
+										Praesent posuere nunc eget odio dapibus, sed cursus mauris
+										tincidunt.
+									</p>
+									<p>Precio: $ <span>24</span></p>
+									<a href="#" class="boton boton-blanco">Agregar al carrito </a>
 								</div>
 							</div>
 						</div>
@@ -99,88 +157,104 @@
 				</div>
 			</section>
 			<section id="contactenos" class="seccion">
-				<iframe width="520" height="400" frameborder="0"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.9662539956375!2d-75.85978838622209!3d8.789240593687396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5a2f065714a625%3A0x24f2299bbe3ad047!2sUniversidad%20De%20C%C3%B3rdoba!5e0!3m2!1ses!2sco!4v1635219669552!5m2!1ses!2sco"></iframe>
+				<iframe
+					width="520"
+					height="400"
+					frameborder="0"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.9662539956375!2d-75.85978838622209!3d8.789240593687396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5a2f065714a625%3A0x24f2299bbe3ad047!2sUniversidad%20De%20C%C3%B3rdoba!5e0!3m2!1ses!2sco!4v1635219669552!5m2!1ses!2sco"
+				></iframe>
 				<div class="container-fluid">
 					<div class="row">
-						<div class="columna columna-41 columna-mobile-100 margen-58 margen-mobile-0 sinpadding-mobile">
+						<div
+							class="columna columna-41 columna-mobile-100 margen-58 margen-mobile-0 sinpadding-mobile"
+						>
 							<form action="index.php" method="post">
 								<div class="form-block">
-									<input type="text" name="nombre" class="form-control" placeholder="Nombre">
+									<input
+										type="text"
+										name="nombre"
+										class="form-control"
+										placeholder="Nombre"
+									/>
 								</div>
 								<div class="form-block">
-									<input type="email" name="email" class="form-control"  placeholder="Email">
+									<input
+										type="email"
+										name="email"
+										class="form-control"
+										placeholder="Email"
+									/>
 								</div>
 								<div class="form-block">
-									<textarea name="mensaje"  placeholder="Mensaje"></textarea>
+									<textarea name="mensaje" placeholder="Mensaje"></textarea>
 								</div>
 								<div class="form-block bloque-ultimo">
-									<input type="submit" class="boton boton-rojo" value="Enviar">
+									<input
+										type="submit"
+										class="boton boton-rojo"
+										value="Enviar"
+									/>
 								</div>
-
 							</form>
-
 						</div>
 					</div>
 				</div>
-
 			</section>
 			<section id="galeria">
 				<div class="container-fluid">
 					<div class="row">
-						<div class=" columna-33 columna-mobile-50">
+						<div class="columna-33 columna-mobile-50">
 							<div class="cuadrado-perfecto">
-								<img src="img/pizza1.jpg">
+								<img src="img/pizza1.jpg" />
 								<h4>Imagen1</h4>
 							</div>
 						</div>
-						<div class=" columna-33   columna-mobile-50">
+						<div class="columna-33 columna-mobile-50">
 							<div class="cuadrado-perfecto">
-								<img src="img/pizza2.jpg">
+								<img src="img/pizza2.jpg" />
 								<h4>Imagen2</h4>
-							</div>	
+							</div>
 						</div>
-						<div class=" columna-33  columna-mobile-50">
+						<div class="columna-33 columna-mobile-50">
 							<div class="cuadrado-perfecto">
-								<img src="img/pizza3.jpg">
+								<img src="img/pizza3.jpg" />
 								<h4>Imagen3</h4>
-							</div>		
+							</div>
 						</div>
-						<div class=" columna-33  columna-mobile-50">
+						<div class="columna-33 columna-mobile-50">
 							<div class="cuadrado-perfecto">
-								<img src="img/pizza4.jpg">
+								<img src="img/pizza4.jpg" />
 								<h4>Imagen4</h4>
-							</div>	
+							</div>
 						</div>
-						<div class=" columna-33  columna-mobile-50">
+						<div class="columna-33 columna-mobile-50">
 							<div class="cuadrado-perfecto">
-								<img src="img/pizza5.jpg">
+								<img src="img/pizza5.jpg" />
 								<h4>Imagen5</h4>
-							</div>	
+							</div>
 						</div>
-						<div class=" columna-33  columna-mobile-50">
+						<div class="columna-33 columna-mobile-50">
 							<div class="cuadrado-perfecto">
-								<img src="img/pizza6.jpg">
+								<img src="img/pizza6.jpg" />
 								<h4>Imagen6</h4>
-							</div>	
+							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			
 		</main>
 		<footer>
 			<div class="container">
 				<div class="row">
 					<div class="columna columna-25 columna-mobile-100">
-						<img src="img/footer1.jpg" class="logo-footer">
+						<img src="img/footer1.jpg" class="logo-footer" />
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nobis aperiam, ad pariatur animi repudiandae,
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+							nobis aperiam, ad pariatur animi repudiandae,
 						</p>
 					</div>
 					<div class="columna columna-25 columna-mobile-100">
-						<h3>
-							Temas relacionados
-						</h3>
+						<h3>Temas relacionados</h3>
 						<ul>
 							<li><a href="#">Tema 1</a></li>
 							<li><a href="#">Tema 2</a></li>
@@ -188,19 +262,15 @@
 						</ul>
 					</div>
 					<div class="columna columna-25 columna-mobile-100">
-						<h3>
-							Datos de contcto
-						</h3>
+						<h3>Datos de contcto</h3>
 						<ul>
 							<li>Carrera 6 No. 77- 305</li>
-                            <li>Montería - Córdoba, Colombia></li>
-                            <li>Código Postal: 230002</li>
+							<li>Montería - Córdoba, Colombia></li>
+							<li>Código Postal: 230002</li>
 						</ul>
 					</div>
 					<div class="columna columna-25 columna-mobile-100">
-						<h3>
-							Redes Sociales
-						</h3>
+						<h3>Redes Sociales</h3>
 						<ul class="redes">
 							<li>
 								<a href="#">
@@ -227,6 +297,5 @@
 		</footer>
 		<script src="js/jquery.js"></script>
 		<script src="js/funciones.js"></script>
-
 	</body>
 </html>

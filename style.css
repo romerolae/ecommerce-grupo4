@@ -1,54 +1,56 @@
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
-
+img {
+	max-width: 100%;
+}
 .card__container {
-    margin-top: 5rem;
-    display: flex;
-    justify-content: space-evenly;
+	margin-top: 5rem;
+	display: flex;
+	justify-content: space-evenly;
 }
 
 .car__container {
-    margin-top: 12rem;
-    display: flex;
-    justify-content: center;
+	margin-top: 12rem;
+	display: flex;
+	justify-content: center;
 }
 
 .car__btn {
-    margin-left: 4rem;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
+	margin-left: 4rem;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
 }
 
 .btn-card {
-    background-color: rgb(37, 172, 172);
+	background-color: rgb(37, 172, 172);
 }
 
 .btn-buy {
-    background-color: rgb(95, 211, 95);
+	background-color: rgb(95, 211, 95);
 }
 
 .btn-clear {
-    background-color: rgb(206, 95, 95);
+	background-color: rgb(206, 95, 95);
 }
 
 .btn {
-    padding: .5rem;
-    border: none;
-    border-radius: 1rem;
-    cursor: pointer;
+	padding: 0.5rem;
+	border: none;
+	border-radius: 1rem;
+	cursor: pointer;
 }
 
 .container {
-    display: flex;
-    width: 65rem;
-    height: 15rem;
-    border: .1rem solid black;
+	display: flex;
+	width: 65rem;
+	height: 15rem;
+	border: 0.1rem solid black;
 }
