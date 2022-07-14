@@ -202,7 +202,7 @@ img {
 	justify-content: right;
 	margin-top: 100px;
 
-	display: none;
+	/* display: none; */
 }
 .carrit {
 	padding: 10px;
