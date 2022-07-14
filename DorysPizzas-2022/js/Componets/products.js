@@ -19,7 +19,7 @@ function paintProd () {
 									<p>${produc.descrip}</p>
 									<p>Precio: $ <span>${produc.precio}</span></p>
                                     <span>Disponible ${produc.cantidad}</span>
-									<button type="button" class="boton boton-blanco" ${produc.id}> Agregar al carrito</button>
+									<button type="button" class="boton boton-blanco" data-id=${produc.id}> Agregar al carrito</button>
 								</div>
 							</div>
 						</div>

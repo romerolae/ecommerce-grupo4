@@ -18,7 +18,7 @@ function paintArt (){
         <div>
         <img src="${filterProd.imagen}" alt="${filterProd.nombre}">
         <div>
-          <h2>${filterProd.nombre} - $ ${art.cantidad * precio} x${art.cantidad}</h2>
+          <h2>${filterProd.nombre} - $ ${art.cantidad * filterProd.precio} x${art.cantidad}</h2>
           <button class="remover" type="button" data-id="${filterProd.id}">-</button>
           <span>${art.cantidad}</span>
           <button class="agregar" type="button" data-id="${filterProd.id}">+</button>
@@ -40,7 +40,7 @@ function paintArt (){
 
 function addArt (id,cantidad) {
     const filterProd = products.find(product => product.id === id)
-
+    
     //Revisar la cantidad de productos
 
     if(filterProd && filterProd.cantidad > 0) {
@@ -104,7 +104,7 @@ function checkInv (id, cantidad){
 function showTotal() {
     let total = 0
     for(const art of articulos) {
-        const filterProd = products.find( produc => produc.id === id)
+        const filterProd = products.find( produc => produc.id === art.id)
         total += art.cantidad * filterProd.precio
     }
     return total
@@ -118,7 +118,7 @@ function emptyCar () {
 
 function buy () {
     for(const art of articulos) {
-        const filterProd = products.find( produc => produc.id === id)
+        const filterProd = products.find( produc => produc.id === art.id)
         
         filterProd.cantidad -= art.cantidad
     }

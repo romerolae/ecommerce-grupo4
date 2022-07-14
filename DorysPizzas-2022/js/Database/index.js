@@ -1,4 +1,4 @@
-const productos = [
+const products = [
     {
       id: 1,
       nombre: 'Hamburguesa',
@@ -73,5 +73,5 @@ const productos = [
     }
   ]
   
-  export default productos
+  export default products
   
