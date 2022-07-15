@@ -1,77 +1,76 @@
 const products = [
-    {
-      id: 1,
-      nombre: 'Hamburguesa',
-      precio: 18.00,
-      imagen: './assets/img/hamburger.png',
-      categoria:'aperitivos',
-      cantidad: 22
-    },
-    {
-      id: 2,
-      nombre: 'Papas Fritas',
-      precio: 12.00,
-      imagen: './assets/img/french-fries.png',
-      categoria: 'aperitivos',
-      cantidad: 18
-    },
-    {
-      id: 3,
-      nombre: 'Hot-Dog',
-      precio: 16.00,
-      imagen: './assets/img/hot_dog.png',
-      categoria: 'aperitivos',
-      cantidad: 13
-    },
-    {
-      id: 4,
-      nombre: 'Sandwich',
-      precio: 15.00,
-      imagen: './assets/img/sandwich.png',
-      categoria: 'aperitivos',
-      cantidad: 16
-    },
-    {
-      id: 5,
-      nombre: 'Donas',
-      precio: 10.00,
-      imagen: './assets/img/donut.png',
-      categoria: 'aperitivos',
-      cantidad: 24
-    },
-    {
-      id: 6,
-      nombre: 'Nuguets',
-      precio: 14.00,
-      imagen: './assets/img/chicken_leg.png',
-      categoria: 'aperitivos',
-      cantidad: 20
-    },
-    {
-      id: 7,
-      nombre: 'Soda en Vaso',
-      precio: 15.00,
-      imagen: './assets/img/soda_cup.png',
-      categoria: 'bebidas',
-      cantidad: 18
-    },
-    {
-      id: 8,
-      nombre: 'Soda en Lata',
-      precio: 13.00,
-      imagen: './assets/img/soda.png',
-      categoria: 'bebidas',
-      cantidad: 14
-    },
-    {
-      id: 9,
-      nombre: 'Jugo',
-      precio: 11.00,
-      imagen: './assets/img/glass.png',
-      categoria: 'bebidas',
-      cantidad: 15
-    }
-  ]
-  
-  export default products
-  
+	{
+		id: 1,
+		nombre: 'Pizza Triple Queso',
+		precio: 18.0,
+		imagen: './img/pizza1.jpg',
+		categoria: 'aperitivos',
+		cantidad: 22,
+	},
+	{
+		id: 2,
+		nombre: 'Pizza Chanpiñones',
+		precio: 12.0,
+		imagen: './img/pizza2.jpg',
+		categoria: 'aperitivos',
+		cantidad: 18,
+	},
+	{
+		id: 3,
+		nombre: 'Pizza Huawaina',
+		precio: 16.0,
+		imagen: './img/pizza3.jpg',
+		categoria: 'aperitivos',
+		cantidad: 13,
+	},
+	{
+		id: 4,
+		nombre: 'Pizza Exocita',
+		precio: 15.0,
+		imagen: './img/pizza4.jpg',
+		categoria: 'aperitivos',
+		cantidad: 16,
+	},
+	{
+		id: 5,
+		nombre: 'Pizza Peperoni',
+		precio: 10.0,
+		imagen: './img/pizza5.jpg',
+		categoria: 'aperitivos',
+		cantidad: 24,
+	},
+	{
+		id: 6,
+		nombre: 'Pizza Frutal',
+		precio: 14.0,
+		imagen: './img/pizza6.jpg',
+		categoria: 'aperitivos',
+		cantidad: 20,
+	},
+	{
+		id: 7,
+		nombre: 'Pizza Normal',
+		precio: 15.0,
+		imagen: './img/recomendado1.jpg',
+		categoria: 'bebidas',
+		cantidad: 18,
+	},
+	{
+		id: 8,
+		nombre: 'Pizza Doble Queso',
+		precio: 13.0,
+		imagen: './img/recomendado2.jpg',
+		categoria: 'bebidas',
+		cantidad: 14,
+	},
+	{
+		id: 9,
+		nombre: 'Pizza Personsal',
+		precio: 11.0,
+		imagen: './img/recomendado3.jpg',
+		categoria: 'bebidas',
+		cantidad: 15,
+	},
+];
+
+export default products;

@@ -37,47 +37,50 @@
 		></script>
 	</head>
 	<body>
-		<header>
-			<div class="container">
-				<a href="index.html">
-					<img src="img/logo.png" class="logo" />
-				</a>
-				<h1>Pizzería Unicórdoba</h1>
-				<nav class="nav__bar">
-					<a href="#cart"><i class="bx bx-cart carrito"></i></a>
-					<a href="#inicio">Inicio</a>
-					<a href="#nosotros">Nosotros</a>
-					<a href="#recomendados">Recomendados</a>
-					<a href="#contactenos">Contáctenos</a>
-					<a href="#galeria">Galería</a>
-				</nav>
-				<a href="#" class="hamb"><i class="fas fa-bars"></i></a>
-			</div>
-		</header>
-		<!-- contenedor carrito -->
-		<div class="cart-conteiner" >
-			<div class="carrit" id="cart-conteiner">
-				<h2>Carrito de Compras</h2>
-				<div class="articulos">
-					<div class="producto">
-						<div class="producto-img">
-							<img src="img/pizza1.jpg" alt="" />
+		<div class="headerr__container">
+			<header class="wrapper">
+				<div class="hero_container">
+					<a href="index.html">
+						<img src="img/logo.png" class="logo" />
+					</a>
+					<h1>Pizzería Unicórdoba</h1>
+					<nav class="nav__bar">
+						<a href="#inicio">Inicio</a>
+						<a href="#nosotros">Nosotros</a>
+						<a href="#recomendados">Recomendados</a>
+						<a href="#contactenos">Contáctenos</a>
+						<a href="#galeria">Galería</a>
+						<button class="bar__toggle" aria-label="open menu">
+							<i class="bx bx-cart carrito"></i>
+						</button>
+					</nav>
+					<!-- <a href="#" class="hamb"><i class="fas fa-bars"></i></a> -->
+				</div>
+			</header>
+			<!-- contenedor carrito -->
+			<div class="cart-conteiner">
+				<div class="carrit" id="cart-conteiner">
+					<h2>Carrito de Compras</h2>
+					<div class="articulos">
+						<div class="producto">
+							<div class="producto-img">
+								<img src="img/pizza1.jpg" alt="" />
+							</div>
+							<div class="producto-description">aaa</div>
+							<div class="producto-costo" id="producto-costo"></div>
 						</div>
-						<div class="producto-description">aaa</div>
-						<div class="producto-costo" id="producto-costo">412312</div>
+						<div class="delete"><i class="bx bx-trash-alt"></i></div>
 					</div>
-					<div class="delete"><i class="bx bx-trash-alt"></i></div>
-					
+					<hr />
+					<div class="totales">
+						<p class="total">Total</p>
+						<p class="costo">30</p>
+					</div>
 				</div>
-				<hr />
-				<div class="totales">
-					<p class="total">Total</p>
-					<p class="costo">30</p>
+				<div id="btnsAcciones">
+					<button type="button" class="comprar">Comprar</button>
+					<button type="button" class="limpiar">Vaciar</button>
 				</div>
-			</div>
-			<div id="btnsAcciones">
-				<button type="button" class="comprar">Comprar</button>
-				<button type="button" class="limpiar" >Vaciar</button>
 			</div>
 		</div>
 		<main>
@@ -92,7 +95,7 @@
 				</section>
 			</div>
 
-			<section id="nosotros" class="seccion">
+			<section id="nosotros" class="seccion wrapper">
 				<div class="container">
 					<h2>Nosotros</h2>
 					<p>
@@ -104,7 +107,7 @@
 					</p>
 				</div>
 			</section>
-			<section id="recomendados" class="seccion">
+			<section id="recomendados" class="seccion wrapper">
 				<div class="container">
 					<div class="row" id="contProduc">
 						<div class="columna columna-33 columna-mobile-100">
@@ -161,52 +164,9 @@
 					</div>
 				</div>
 			</section>
-			<section id="contactenos" class="seccion">
-				<iframe
-					width="520"
-					height="400"
-					frameborder="0"
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.9662539956375!2d-75.85978838622209!3d8.789240593687396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5a2f065714a625%3A0x24f2299bbe3ad047!2sUniversidad%20De%20C%C3%B3rdoba!5e0!3m2!1ses!2sco!4v1635219669552!5m2!1ses!2sco"
-				></iframe>
-				<div class="container-fluid">
-					<div class="row">
-						<div
-							class="columna columna-41 columna-mobile-100 margen-58 margen-mobile-0 sinpadding-mobile"
-						>
-							<form action="index.php" method="post">
-								<div class="form-block">
-									<input
-										type="text"
-										name="nombre"
-										class="form-control"
-										placeholder="Nombre"
-									/>
-								</div>
-								<div class="form-block">
-									<input
-										type="email"
-										name="email"
-										class="form-control"
-										placeholder="Email"
-									/>
-								</div>
-								<div class="form-block">
-									<textarea name="mensaje" placeholder="Mensaje"></textarea>
-								</div>
-								<div class="form-block bloque-ultimo">
-									<input
-										type="submit"
-										class="boton boton-rojo"
-										value="Enviar"
-									/>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</section>
+
 			<section id="galeria">
-				<div class="container-fluid">
+				<div class="container-fluid wrapper">
 					<div class="row">
 						<div class="columna-33 columna-mobile-50">
 							<div class="cuadrado-perfecto">
@@ -300,8 +260,7 @@
 				&copy;Derechos reservados para el curso de desarrollo web 1
 			</div>
 		</footer>
-		<script src="js/jquery.js"></script>
-		<script src="js/funciones.js"></script>
+
 		<script src="js/main.js" type="module"></script>
 	</body>
 </html>
