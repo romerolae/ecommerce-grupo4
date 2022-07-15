@@ -116,7 +116,7 @@ function showTotal() {
 		const filterProd = products.find((produc) => produc.id === art.id);
 		total += art.cantidad * filterProd.precio;
 	}
-	return total;
+	return `$${total}`;
 }
 
 //carro vacio
