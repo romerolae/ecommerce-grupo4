@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="description"
+			content="Coca colaes la bebida y bla bla bla bla"
+		/>
+		<meta name="keywords" content="bebida, gaseosa, cola" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Pizzeria Unicordoba: Las mejores pizzas de la Universidad con el mejor sabor y a un precio increible. Ven por la tuya."
+		/>
+		<meta
+			name="keywords"
+			content="Pizzeria Unicordoba Pizza Hawaiana, Especial, todo Terreno"
+		/>
+		<title>Dorys Pizzas</title>
+
+		<link rel="shortcut icon" href="img/favicon.png" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,500&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/style2022.css" />
+		<link
+			href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://kit.fontawesome.com/114c3ee85e.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<div class="headerr__container">
+			<header class="wrapper">
+				<div class="hero_container">
+					<a href="index.html">
+						<img src="img/logo.png" class="logo" />
+					</a>
+					<h1>Pizzería Unicórdoba</h1>
+					<nav class="nav__bar">
+						<a href="#inicio">Inicio</a>
+						<a href="#nosotros">Nosotros</a>
+						<a href="#recomendados">Recomendados</a>
+						<a href="#contactenos">Contáctenos</a>
+						<a href="#galeria">Galería</a>
+						<button class="bar__toggle" aria-label="open menu">
+							<i class="bx bx-cart carrito"></i>
+						</button>
+					</nav>
+					<!-- <a href="#" class="hamb"><i class="fas fa-bars"></i></a> -->
+				</div>
+			</header>
+			<!-- contenedor carrito -->
+			<div class="cart-conteiner">
+				<h2>Carrito de Compras</h2>
+				<div class="carrit" id="cart-conteiner">
+					<div class="articulos">
+						<div class="producto">
+							<div class="producto-img">
+								<img src="img/pizza1.jpg" alt="" />
+							</div>
+							<div class="producto-description">aaa</div>
+							<div class="producto-costo"></div>
+						</div>
+						<div class="delete"><i class="bx bx-trash-alt"></i></div>
+					</div>
+					<hr />
+				</div>
+				<div class="totales">
+					<p class="total">Total</p>
+					<p class="costo" id="producto-costo">30</p>
+				</div>
+				<div id="btnsAcciones">
+					<button type="button" class="comprar">Comprar</button>
+					<button type="button" class="limpiar">Vaciar</button>
+				</div>
+			</div>
+		</div>
+		<main>
+			<div class="container-fluid">
+				<section id="inicio">
+					<!--<img src="img/banner_principal.jpg">-->
+					<div class="bloque-inicio">
+						<h2>Bienvenidos a la Pizzería Unicordoba</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<a href="#nosotros" class="boton boton-rojo">$ 30</a>
+					</div>
+				</section>
+			</div>
+
+			<section id="nosotros" class="seccion wrapper">
+				<div class="container">
+					<h2>Nosotros</h2>
+					<p>
+						Nam accumsan tellus tortor, at aliquet est sodales vitae. Praesent
+						posuere nunc eget odio dapibus, sed cursus mauris tincidunt. Donec
+						accumsan arcu et urna eleifend sodales. Sed at neque non leo
+						tincidunt semper. In ligula enim, rutrum sit amet Lorem eu, congue
+						dapibus nisi.
+					</p>
+				</div>
+			</section>
+			<section id="recomendados" class="seccion">
+				<div class="container wrapper">
+					<h2 class="titulo-recomendados">RECOMENDADOS</h2>
+					<div class="row" id="contProduc">
+						<div class="columna columna-33 columna-mobile-100">
+							<div class="bloque-recomendado">
+								<div class="bloque-img-recomendado rectangulo-perfecto">
+									<img src="img/recomendado1.jpg" />
+								</div>
+								<div class="bloque-contenido-recomendado">
+									<h3>Pizza recomendada 1</h3>
+									<p>
+										Nam accumsan tellus tortor, at aliquet est sodales vitae.
+										Praesent posuere nunc eget odio dapibus, sed cursus mauris
+										tincidunt.
+									</p>
+									<p>Precio: $ <span>34</span></p>
+									<a href="#" class="boton boton-blanco">Agregar al carrito</a>
+								</div>
+							</div>
+						</div>
+						<div class="columna columna-33 columna-mobile-100">
+							<div class="bloque-recomendado">
+								<div class="bloque-img-recomendado rectangulo-perfecto">
+									<img src="img/recomendado2.jpg" />
+								</div>
+								<div class="bloque-contenido-recomendado">
+									<h3>Pizza recomendada 2</h3>
+									<p>
+										Nam accumsan tellus tortor, at aliquet est sodales vitae.
+										Praesent posuere nunc eget odio dapibus, sed cursus mauris
+										tincidunt.
+									</p>
+									<p>Precio: $ <span>44</span></p>
+									<a href="#" class="boton boton-blanco">Agregar al carrito</a>
+								</div>
+							</div>
+						</div>
+						<div class="columna columna-33 columna-mobile-100">
+							<div class="bloque-recomendado">
+								<div class="bloque-img-recomendado rectangulo-perfecto">
+									<img src="img/recomendado3.jpg" />
+								</div>
+								<div class="bloque-contenido-recomendado">
+									<h3>Pizza recomendada 3</h3>
+									<p>
+										Nam accumsan tellus tortor, at aliquet est sodales vitae.
+										Praesent posuere nunc eget odio dapibus, sed cursus mauris
+										tincidunt.
+									</p>
+									<p>Precio: $ <span>24</span></p>
+									<a href="#" class="boton boton-blanco">Agregar al carrito </a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="galeria">
+				<div class="container-fluid wrapper">
+					<div class="row">
+						<div class="columna-33 columna-mobile-50">
+							<div class="cuadrado-perfecto">
+								<img src="img/pizza1.jpg" />
+								<h4>Imagen1</h4>
+							</div>
+						</div>
+						<div class="columna-33 columna-mobile-50">
+							<div class="cuadrado-perfecto">
+								<img src="img/pizza2.jpg" />
+								<h4>Imagen2</h4>
+							</div>
+						</div>
+						<div class="columna-33 columna-mobile-50">
+							<div class="cuadrado-perfecto">
+								<img src="img/pizza3.jpg" />
+								<h4>Imagen3</h4>
+							</div>
+						</div>
+						<div class="columna-33 columna-mobile-50">
+							<div class="cuadrado-perfecto">
+								<img src="img/pizza4.jpg" />
+								<h4>Imagen4</h4>
+							</div>
+						</div>
+						<div class="columna-33 columna-mobile-50">
+							<div class="cuadrado-perfecto">
+								<img src="img/pizza5.jpg" />
+								<h4>Imagen5</h4>
+							</div>
+						</div>
+						<div class="columna-33 columna-mobile-50">
+							<div class="cuadrado-perfecto">
+								<img src="img/pizza6.jpg" />
+								<h4>Imagen6</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="columna columna-25 columna-mobile-100">
+						<img src="img/footer1.jpg" class="logo-footer" />
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+							nobis aperiam, ad pariatur animi repudiandae,
+						</p>
+					</div>
+					<div class="columna columna-25 columna-mobile-100">
+						<h3>Temas relacionados</h3>
+						<ul>
+							<li><a href="#">Tema 1</a></li>
+							<li><a href="#">Tema 2</a></li>
+							<li><a href="#">Tema 3</a></li>
+						</ul>
+					</div>
+					<div class="columna columna-25 columna-mobile-100">
+						<h3>Datos de contcto</h3>
+						<ul>
+							<li>Carrera 6 No. 77- 305</li>
+							<li>Montería - Córdoba, Colombia></li>
+							<li>Código Postal: 230002</li>
+						</ul>
+					</div>
+					<div class="columna columna-25 columna-mobile-100">
+						<h3>Redes Sociales</h3>
+						<ul class="redes">
+							<li>
+								<a href="#">
+									<i class="fab fa-facebook-square"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-twitter-square"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-instagram-square"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="pie-de-pagina">
+				&copy;Derechos reservados para el curso de desarrollo web 1
+			</div>
+		</footer>
+
+		<script src="js/main.js" type="module"></script>
+	</body>
+</html>
